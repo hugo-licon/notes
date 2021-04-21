@@ -61,3 +61,31 @@ en todas menos en search y pagos
 | search_bar__reset_dates_calendar_text         | Search Bar | Calendar reset dates label        | Reset Dates          |
 | search_bar__minimum_nights_calendar_text      | Search Bar | Calendar minimum nights Label     | Minimum nights vary  |
 | search_bar__small_search_bar_text             | Search Bar | Small search bar text             | Find your next stay  |
+
+## Requerimientos
+
+### Mobile
+Todo el searchbar debe ser clickable para abrir el modal de filtro de ciudad (es decir no solo el botón de search), esto también aplica para el search bar del navbar 
+
+![image](https://user-images.githubusercontent.com/72823833/115590950-d060e980-a28e-11eb-94f4-5d89eea25edc.png)
+
+Los botones del modal para volver y cerrar deben funcionar correctamente
+
+![image](https://user-images.githubusercontent.com/72823833/115590999-db1b7e80-a28e-11eb-822a-3e6c8c790b08.png)
+
+Se debe de recordar las opciones previamente seleccionadas en caso de que el usuario cierre el modal
+El filtro de fechas no debe ser obligatorio
+
+### Tablet
+El comportamiento debe ser identico al de mobile
+
+### Desktop
+
+
+
+
+### General (Mobile, tablet y desktop)
+El logo de casai debe estar alineado con el searchbar y con el copy.
+
+![image](https://user-images.githubusercontent.com/72823833/115591047-e9699a80-a28e-11eb-8914-c888380980d3.png)
+
