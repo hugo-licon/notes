@@ -26,6 +26,7 @@ Los botones del modal para volver y cerrar deben funcionar correctamente
 ![image](https://user-images.githubusercontent.com/72823833/115590999-db1b7e80-a28e-11eb-822a-3e6c8c790b08.png)
 
 Se debe de recordar las opciones previamente seleccionadas en caso de que el usuario cierre el modal
+
 El filtro de fechas no debe ser obligatorio
 
 ### Tablet
