@@ -46,12 +46,6 @@ en todas menos en search y pagos
 - [x] not found
 - [x] Home
 
-
-## Issues
-Los elementos del navbar en resoluciones con 890px a 1005px width
-![6c8000e0.png](:storage/017db0cf-fb28-48bc-852f-62ec10eeae91/6c8000e0.png)
-
-
 ## Keys
 
 |                   Code Key                    |   Screen   |           Section/Title           |      en              |
