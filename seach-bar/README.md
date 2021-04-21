@@ -1,51 +1,3 @@
-# Search Filter
-
-## Dudas
-- ¿Por qué cambia el botón de search?
-Cambia cuando está activo
-
-- Los dropdowns tienen la funcionalidad de búsqueda?
-No, no tiene.
-
-- ¿Como se visualiza el search bar cuando el campo de ciudad se deja vacio?
-Cuando se deja vacio y se presiona se hace un focus al al input de ciudad.
-
-- Cuando se activa la vista de una columna en el calendario
-mobile 1 columna
-desktop, tablet: 2
-
-hasta 576 que sean dos sino que sea una
-
-- Donde se muestra el search bar del navbar
-en todas menos en search y pagos
-
-
-
-## Pendientes
-
-- [x] Revisar como se comporta el calendario en distintos idiomas y el formato de las fechas dependiendo el idioma
-  - Se va a crear una tarea para solucionar esto.
-- [x] Cambiar el margin de las flechas del select
-- [ ] Cambiar el height del search bar
-- [x] En desktop tiene que ir abriendote los siguientes filtros cada vez que haces click en uno.
-- [x] Falta agregar el scroll a las opciones del dropdown
-- [x] check loading and error state on searchbar. If we use the go to units button as fallback check the style
-- [x] hacer pruebas de performance con y sin lazy loading
-- [x] Revisar error en consola sobre export
-- [x] Actualizar reset dates label
-
-
-## Páginas en donde mostrar el search bar
-- [x] About us
-- [x] Edit profile
-- [x] manage stay
-- [x] my stays
-- [x] update password
-- [x] lease to casai
-- [x] error page
-- [x] not found
-- [x] Home
-
 ## Keys
 
 |                   Code Key                    |   Screen   |           Section/Title           |      en              |
@@ -80,12 +32,45 @@ El filtro de fechas no debe ser obligatorio
 El comportamiento debe ser identico al de mobile
 
 ### Desktop
+El botón de search se debe expandir cuando un elemento del search bar tiene focus
 
+![image](https://user-images.githubusercontent.com/72823833/115599923-5da93b80-a299-11eb-85ca-e5becb966045.png)
+![image](https://user-images.githubusercontent.com/72823833/115599897-55510080-a299-11eb-85c7-700e15c1b182.png)
 
+Cada vez que se selecciona una filtro, se debe abrir el siguiente.
+
+![chrome-capture](https://user-images.githubusercontent.com/72823833/115600262-be387880-a299-11eb-9778-ff880ad40a42.gif)
+
+El botón de neighborhood debe estár deshabilitado si no se ha seleccionado una ciudad.
+
+![image](https://user-images.githubusercontent.com/72823833/115600365-db6d4700-a299-11eb-966f-47c8e75bbcf9.png)
+
+Si se presiona buscar y no se ha seleccionado una ciudad, se debe abrir el dropdown de ciudad.
+
+![chrome-capture (1)](https://user-images.githubusercontent.com/72823833/115601365-f1c7d280-a29a-11eb-98a8-ab91dcb5b10b.gif)
 
 
 ### General (Mobile, tablet y desktop)
 El logo de casai debe estar alineado con el searchbar y con el copy.
 
 ![image](https://user-images.githubusercontent.com/72823833/115591047-e9699a80-a28e-11eb-8914-c888380980d3.png)
+
+El searchbar se tiene que mostrar en el navbar en las siguientes páginas:
+
+## Páginas en donde mostrar el search bar
+
+- About us
+- Edit profile
+- manage stay
+- my stays
+- update password
+- lease to casai
+- error page
+- not found
+- Home
+En las otras páginas se debe mostrar el navbar normal, es decir sin el searchbar
+
+Para obtener las ciudades y las colonias se hace un request, si este request falla, en lugar de mostrar el search bar se va a mostrar el botón de See apartments
+
+![image](https://user-images.githubusercontent.com/72823833/115604583-c646e700-a29e-11eb-9e9d-2f6595ce65ad.png)
 
