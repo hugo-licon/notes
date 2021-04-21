@@ -58,17 +58,32 @@ El logo de casai debe estar alineado con el searchbar y con el copy.
 
 El searchbar se tiene que mostrar en el navbar en las siguientes páginas:
 
-## Páginas en donde mostrar el search bar
+## Páginas en donde mostrar el search bar en el navbar
 
-- About us
-- Edit profile
-- manage stay
-- my stays
-- update password
-- lease to casai
-- error page
-- not found
-- Home
+|  Página                      | ¿Debe mostrar seachbar? |
+|------------------------------|-------------------------|
+| Home                         |            ✅           |
+| About us                     |            ✅           |
+| Update password              |            ✅           |
+| Lease to casai               |            ✅           |
+| Edit profile                 |            ✅           |
+| Manage stay                  |            ✅           |
+| My stays                     |            ✅           |
+| Error page                   |            ✅           |
+| Not found                    |            ✅           |
+| Listing Details              |            ✅           |
+| Booking Confirmation         |            ✅           |
+| Confirm Payment              |            ✅           |
+| Search Results               |            ❌           |
+| Invoices                     |            ❌           |
+| Terms and Conditions         |            ❌           |
+| Privacy Policy               |            ❌           |
+| FAQ                          |            ❌           |
+| Loyalty                      |            ❌           |
+| Casai Community Discount T&C |            ❌           |
+| LinkMyReservation            |            ❌           |
+
+
 En las otras páginas se debe mostrar el navbar normal, es decir sin el searchbar
 
 Para obtener las ciudades y las colonias se hace un request, si este request falla, en lugar de mostrar el search bar se va a mostrar el botón de See apartments
