@@ -25,6 +25,7 @@ Actualmente, el desglose de precios se utiliza en varios lugares y en cada uno s
 - [ ] Cambiar fetch por axios en listing api
 - [x] Revisar endpoint de featured units en epic
 - [ ] mover de ubicación el componente de price breakdown
+- [ ] Revisar si el total de price breakdown debe de quedar con bold y texto más grande
 
 
 ## Ajustes diseño
