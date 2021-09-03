@@ -23,17 +23,16 @@ Actualmente, el desglose de precios se utiliza en varios lugares y en cada uno s
 - [ ] Agregar VAT o service fee dependiendo si la unit está en México o en Brasil y el local_tax
 - [ ] Revisar los imports del design system
 - [ ] Cambiar fetch por axios en listing api
-- [ ] Revisar endpoint de featured units en epic
+- [x] Revisar endpoint de featured units en epic
 - [ ] mover de ubicación el componente de price breakdown
 
 
 ## Ajustes diseño
 - [x] En mobile el nombre del listing, precio queda en 16px y la colonia en 14px, 
-- [ ] Revisar padding en mobile en el archivo de SearchResultList.styles
+- [x] Revisar padding en mobile en el archivo de SearchResultList.styles
 - [x] Agregar text decoration a notice
-- [ ] EL notice cuando ocupa dos lineas en desktop moverlo a la derecha
-- [ ] Que sucede con los 
-- [ ] Revisar si el nombre del departamento debería de ser una linea o 2
+- [x] El notice cuando ocupa dos lineas en desktop moverlo a la derecha
+- [x] Revisar si el nombre del departamento debería de ser una linea o 2
 - [ ] Revisar si podemos eliminar fuentes
 Moderat_Bold, (Moderat, Moderat_Regular iguales), Moderat_Light (se usa en pocos lugares), Moderat_Medium(se utiliza en pocos lugares)
 
